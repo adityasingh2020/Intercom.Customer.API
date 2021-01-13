@@ -20,8 +20,8 @@ Install Docker ( https://docs.docker.com/install/ )
    5- Open http://localhost:5001/index.html in browser
 
    6- Execute ~GetNearbyCustomers endpoint using swagger UI 
-
       or execute curl command as below
+      
       - curl -X GET "http://localhost:5001/api/v1/GetNearbyCustomers" -H "accept: application/json"
       - curl -X GET "http://localhost:5001/api/v1/GetNearbyCustomers?distance=100" -H "accept: application/json"
       - curl -X GET "http://localhost:5001/HealthCheck" -H  "accept: */*"
@@ -33,23 +33,28 @@ B- Download & Install .NET Core 3.1
    https://dotnet.microsoft.com/download/dotnet-core/3.1
 
    Build
-   - dotnet build
+   
+     - dotnet build
    Run Test Cases
-   - dotnet test -v n
+   
+    - dotnet test -v n
 
    Run Application
-   - change directory to api folder
-   - ~C:\....\InterCom.Customer.API\InterCom.Customer.API> dotnet run
+   
+    - change directory to api folder
+    - ~C:\....\InterCom.Customer.API\InterCom.Customer.API> dotnet run
 
    Query endpoints 
-     using swagger :
+   using swagger :
+        
         - Open http://localhost:5001/index.html in browser
         - And Execute ~GetNearbyCustomers endpoint using swagger UI 
 
-     or excecure curl command as below
-   - curl -X GET "http://localhost:5001/api/v1/GetNearbyCustomers" -H "accept: application/json"
-   - curl -X GET "http://localhost:5001/api/v1/GetNearbyCustomers?distance=100" -H "accept: application/json"
-   - curl -X GET "https://localhost:5001/HealthCheck" -H  "accept: */*"
+   or excecure curl command as below
+   
+    - curl -X GET "http://localhost:5001/api/v1/GetNearbyCustomers" -H "accept: application/json"
+    - curl -X GET "http://localhost:5001/api/v1/GetNearbyCustomers?distance=100" -H "accept: application/json"
+    - curl -X GET "https://localhost:5001/HealthCheck" -H  "accept: */*"
 
 
 
