@@ -10,12 +10,16 @@ Install Docker ( https://docs.docker.com/install/ )
 
    1- Download/clone the code & Navigate to folder ( root ) conatining Dockerfile 
 
-   2- docker build -t customerapi .
+   2- Build
+   
+     -docker build -t customerapi .
 
    3- Dockerfile has a step to execute unit test cases and will be executed in above steps i.e. while creating docker image.
       Test result will be displayed on console after executing the step 2
 
-   4- docker run -d -p 5001:80 --name custapi customerapi
+   4- Run application
+   
+     -docker run -d -p 5001:80 --name custapi customerapi
 
    5- Open http://localhost:5001/index.html in browser
 
