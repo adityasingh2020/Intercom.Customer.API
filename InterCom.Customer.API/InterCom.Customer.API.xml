@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InterCom.Customer.API</name>
+    </assembly>
+    <members>
+        <member name="T:InterCom.Customer.API.Controllers.CustomerController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:InterCom.Customer.API.Controllers.CustomerController.#ctor(Microsoft.Extensions.Logging.ILogger{InterCom.Customer.API.Controllers.CustomerController},Microsoft.Extensions.Options.IOptions{Intercom.Customer.Contract.AppSettings},Intercom.Customer.Domain.ICustomerService)">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+            <param name="settings"></param>
+            <param name="customerService"></param>
+        </member>
+        <member name="M:InterCom.Customer.API.Controllers.CustomerController.Get(System.Nullable{System.Double},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="distance"></param>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
