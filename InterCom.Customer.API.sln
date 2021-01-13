@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterCom.Customer.API", "InterCom.Customer.API\InterCom.Customer.API.csproj", "{325C42C9-8B25-469D-9A17-4F9439499DC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercom.Customer.Domain", "Intercom.Customer.Domain\Intercom.Customer.Domain.csproj", "{5574FBF4-7E7B-4741-BFE0-4E2E12F60D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercom.Customer.Contract", "Intercom.Customer.Contract\Intercom.Customer.Contract.csproj", "{11D4FF62-3270-462E-BF8B-226AAC286C1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercom.Customer.Infrastructure", "Intercom.Customer.Infrastructure\Intercom.Customer.Infrastructure.csproj", "{F312C992-CCF3-4269-869E-93F1AD7D0D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercom.Customer.API.Tests", "Intercom.Customer.API.Tests\Intercom.Customer.API.Tests.csproj", "{19F5F6AB-F4AC-4341-8E6C-0A82DC16088B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercom.Customer.Infrastructure.Tests", "Intercom.Customer.Infrastructure.Tests\Intercom.Customer.Infrastructure.Tests.csproj", "{150E364C-EE2A-4AB3-A2C0-9325EDDA2F20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{325C42C9-8B25-469D-9A17-4F9439499DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325C42C9-8B25-469D-9A17-4F9439499DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325C42C9-8B25-469D-9A17-4F9439499DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325C42C9-8B25-469D-9A17-4F9439499DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5574FBF4-7E7B-4741-BFE0-4E2E12F60D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5574FBF4-7E7B-4741-BFE0-4E2E12F60D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5574FBF4-7E7B-4741-BFE0-4E2E12F60D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5574FBF4-7E7B-4741-BFE0-4E2E12F60D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D4FF62-3270-462E-BF8B-226AAC286C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D4FF62-3270-462E-BF8B-226AAC286C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D4FF62-3270-462E-BF8B-226AAC286C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D4FF62-3270-462E-BF8B-226AAC286C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F312C992-CCF3-4269-869E-93F1AD7D0D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F312C992-CCF3-4269-869E-93F1AD7D0D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F312C992-CCF3-4269-869E-93F1AD7D0D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F312C992-CCF3-4269-869E-93F1AD7D0D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F5F6AB-F4AC-4341-8E6C-0A82DC16088B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F5F6AB-F4AC-4341-8E6C-0A82DC16088B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F5F6AB-F4AC-4341-8E6C-0A82DC16088B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F5F6AB-F4AC-4341-8E6C-0A82DC16088B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150E364C-EE2A-4AB3-A2C0-9325EDDA2F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150E364C-EE2A-4AB3-A2C0-9325EDDA2F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150E364C-EE2A-4AB3-A2C0-9325EDDA2F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150E364C-EE2A-4AB3-A2C0-9325EDDA2F20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9842E0C5-2647-46E8-9298-E7CD82372051}
+	EndGlobalSection
+EndGlobal
